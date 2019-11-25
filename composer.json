@@ -1,0 +1,22 @@
+{
+    "name": "adrianschubek/pipeline",
+    "description": "Pipeline Pattern",
+    "type": "library",
+    "homepage": "https://adriansoftware.de/pipeline",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "adrian",
+            "email": "adrian.schubek@gmail.com",
+            "homepage": "https://adriansoftware.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "adrianschubek\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.2"
+    }
+}
